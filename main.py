@@ -249,7 +249,7 @@ def bot_with_cyclic_update_process(update_event, answer_scores):
     upd_thread.start()
 
     loop = asyncio.get_event_loop()
-    loop.create_task(bot.start('NzE5MTAyNzI3NjUyNjM4Nzcw.XtyjAA.72bRYtAxCuhpGVcR7vOhJT6o1qo'))
+    loop.create_task(bot.start('NzUyMzc1MTI1MjU2Njk5OTM0.X3XEPw.gscorZrJZZpHN5lXtcVr4Y95qOQ')) 
     loop.run_forever()
 
 
@@ -258,7 +258,7 @@ def selfbot_process(update_event, answer_scores):
     selfbot = SelfBot(update_event, answer_scores)
 
     loop = asyncio.get_event_loop()
-    loop.create_task(selfbot.start('NzAyNDk4MTc1OTM1ODQwMzE2.XqQvjw.VY9cwAvxn-9dgy8MtEM8PfebLwU',
+    loop.create_task(selfbot.start('NzUyMzc1MTI1MjU2Njk5OTM0.X3XEPw.gscorZrJZZpHN5lXtcVr4Y95qOQ', 
                                    bot=False))
     loop.run_forever()
 
